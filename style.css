@@ -1,0 +1,17 @@
+body{
+  background-color: #343233;
+  color: #9C8D65;
+  font-family: B612, Times, serif;
+  margin:0;
+  padding:0;
+}
+
+.header{
+  padding: 30px;
+  margin-bottom: 10px;
+    background-color: #FCE6C4;
+}
+
+canvas{
+  background-color: #fff6e8;
+}
