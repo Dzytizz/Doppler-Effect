@@ -12,7 +12,76 @@
         Doplerio efektas
       </h1>
     </div>
-    <input id="textbox1" type="text" />
-    <canvas id="canvas1" width="300" height="300"></canvas>
+    <div>
+      <p>
+         Įveskite greitį (m/s):
+      </p>
+      <input class="textbox" id="textbox1" type="text" />
+      <canvas id="canvas1" height="300"></canvas>
+    </div>
+    <hr />
+    <div>
+      <table>
+        <tr>
+          <td>
+            <table class="mainTable">
+              <tr>
+                <td>
+                  <p>Garsumas:  </p>
+                </td>
+                <td>
+                    <input id="slider1" type="range" min="1" max="1000" value="100" class="slider" oninput = "changeVolume(this)">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p id="frequencyText">Dažnis (440Hz):</p>
+                </td>
+                <td>
+                    <input id="slider2" type="range" min="20" max="2000" value="440" class="slider" oninput = "changeFrequency(this)">
+                </td>
+              </tr>
+              <tr>
+                <td>
+
+                  <p id="outputText">Šaltinio greitis link klausytojo (0m/s):</p>
+                </td>
+                <td>
+                  <input id="slider3" type="range" min="-100" max="100" value="0" class="slider" oninput = "changeOutputSpeed(this)">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p id="inputText">Klausytojo greitis link šaltinio (0m/s):</p>
+                </td>
+                <td>
+                  <input id="slider3" type="range" min="-100" max="100" value="0" class="slider" oninput = "changeInputSpeed(this)">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p id="calculatedText">Apskaičiuotas (girdimas) dažnis: 440Hz</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <img src="formula.png" alt="Akustinio Doplerio reiškinio formulė." height="100px">
+          </td>
+        </tr>
+      </table>
+
+      <div>
+
+
+      </div>
+
+      <input class="buttons" id="button1" value="Paleisti/sustabdyti šaltinio garsą" type="button" onclick="playSound()"/>
+      <input class="buttons" id="button2" value="Paleisti/sustabdyti girdimą garsą" type="button" onclick="playOutputSound()"/>
+    </div>
+    <hr>
+    <div>
+      <iframe width="1120" height="630" src="https://www.youtube.com/embed/jTmFSTzeBMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </body>
 </html>
