@@ -5,4 +5,4 @@ Pirmoje demonstracijoje pateikiami judančio garso šaltinio skleidžiamų bang�
 Antroje demonstracijoje galima išgirsti garso pokytį, kai juda garso šaltinis ir/arba klausytojas. Taip pat šioje demonstracijoje galima išgirsti garso bangų interferenciją (tai girdime kai įjungtas šaltinio garsas ir girdimas garsas vienu metu ir garso bangų dažniai yra skirtingi. Tuomet dėl interferencijos susidaro girdimi "smūgiai").
 Trečioje demonstracijoje pateikiamas vaizdo įrašas, kuriame virš galvos sukama virve pririšta garso kolonėlė – girdimas garso dažnio pamažėjimas ir padidėjimas, priklausomai nuo kolonėlės judėjimo greičio.
 
-Nuoroda į demonstracijas: https://dzytizz.github.io/doppler-effect/
+Nuoroda į demonstracijas: https://dzytizz.github.io/Doppler-Effect/
